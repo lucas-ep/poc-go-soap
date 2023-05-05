@@ -12,7 +12,7 @@ go run main.go
 ```
 This will start the server and listen on port 8080. You can send a SOAP request to the endpoint at http://localhost:8080/sayHello using your preferred client.
 
-Testing
+## Testing
 To test the endpoint, you can use a tool like Postman. We have already tested the endpoint using Postman ![Postman SOAP test](https://github.com/lucas-ep/poc-go-soap/blob/main/Screenshot%202023-05-05%20at%2014.58.37.png)
 
 the body is the following:
