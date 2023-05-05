@@ -25,7 +25,7 @@ func RunServer() {
 	soapServer := soap.NewServer()
 	soapServer.Log = log.Println
 	soapServer.RegisterHandler(
-		"/pathTo",
+		"/sayHello",
 		"POST",       // SOAPAction
 		"fooRequest", // tagname of soap body content
 		// RequestFactoryFunc - give the server sth. to unmarshal the request into
