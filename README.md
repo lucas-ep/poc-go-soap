@@ -18,12 +18,12 @@ To test the endpoint, you can use a tool like Postman. We have already tested th
 the body is the following:
 
 ```
-<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
-    <Header xmlns="http://schemas.xmlsoap.org/soap/envelope/"></Header>
-    <Body xmlns="http://schemas.xmlsoap.org/soap/envelope/">
-        <Content>
-            <Bar>Hello Lucas</Bar>
-        </Content>
-    </Body>
-</Envelope>
+ <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+        <Header xmlns="http://schemas.xmlsoap.org/soap/envelope/"></Header>
+        <Body xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+                <fooRequest>
+                        <Foo>Lucas</Foo>
+                </fooRequest>
+        </Body>
+</Envelope> 
 ```
