@@ -1,4 +1,4 @@
-#POC Go SOAP
+# POC Go SOAP
 This project is a proof of concept to verify if the github.com/globusdigital/soap package works as expected. The soap package is a Go library for creating and consuming SOAP web services.
 
 In this POC, a dummy endpoint was created that returns a hello message with the name passed in the request. The soap package is used to create the SOAP request and parse the response.
